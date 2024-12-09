@@ -83,6 +83,14 @@ The task required the development of a Spring Boot application with RESTful APIs
    URL: `http://localhost:8080/api/products/{id}`  
    Description: Deletes a product by its ID.
 
+## Screenshots
+
+### Postman Request Example
+
+Here is a screenshot showing the mapping of the `GET all categories` API in Postman:
+
+
+
 ## Database Configuration
 
 The project uses **MySQL** as the relational database, with Spring Data JPA for ORM-based database interaction. The configuration is set up via **application.properties** to connect to a MySQL database instance.
@@ -108,3 +116,21 @@ To fetch the 3rd page of categories, use:
 1. Clone this repository:
    ```bash
    git clone https://github.com/ravirajpatil2109/Nimap-Task-Category-Product.git
+2. Navigate to the project directory:
+   ```bash
+   cd Nimap-Task-Category-Product
+3. Install the necessary dependencies:
+   ```bash
+   mvn clean install
+4. Run the application:
+   ```bash
+   mvn spring-boot:run
+5. Access the API using Postman or your browser at http://localhost:8080
+
+## Conclusion
+
+This project demonstrates the implementation of RESTful APIs with Spring Boot, using JPA and Hibernate for database interactions, along with server-side pagination and a one-to-many relationship between categories and products.
+
+## License
+
+This project is licensed under the MIT License.
