@@ -1,0 +1,5 @@
+package com.product.serviceimp;
+
+public interface ProductService {
+
+}
