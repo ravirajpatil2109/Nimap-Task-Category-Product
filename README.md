@@ -89,7 +89,13 @@ The task required the development of a Spring Boot application with RESTful APIs
 
 Here is a screenshot showing the mapping of the `GET all categories` API in Postman:
 
+![Postman GET Categories](Screenshots/1.jpeg)
 
+### MySQL Database Schema
+
+Here is a screenshot of the MySQL database schema, showing the `categories` and `products` tables:
+
+![MySQL Database Schema](Screenshots/2.png)
 
 ## Database Configuration
 
